@@ -5,7 +5,7 @@ import { Text } from 'react-native';
 export default function First() {
     return (
         <>
-            <Text>axcdsds</Text>
+            <Text>Lembrete de rodar as funções com `export default function First()`, pois o expo se encontra com delay ao executar outroas funções</Text>
         </>
     )
 }

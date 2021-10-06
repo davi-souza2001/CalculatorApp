@@ -1,1 +1,3 @@
 ## Buldiing...
+
+lembrete de rodar as funções com `export default function First()`, pois o expo se encontra com delay ao executar outroas funções
