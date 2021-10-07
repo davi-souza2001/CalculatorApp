@@ -7,10 +7,20 @@ import Display from "./components/Display";
 import styles from "./components/style";
 
 export default function App() {
+  const iniitalState = {
+    displayValue: "0",
+    clearMemory: false,
+    operation: null,
+    values: [0, 0],
+    current: 0,
+  }
+  
   const [display, setDisplay] = useState("0");
 
   function addDigit(value){
-    setDisplay(value);
+    if (value === "." && iniitalState.displayValue.includes('.')){
+      return
+    }
   }
   
   function clearMemory(){
