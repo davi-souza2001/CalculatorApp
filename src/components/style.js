@@ -16,7 +16,6 @@ export default StyleSheet.create({
     Second: {
       justifyContent: "center",
       alignItems: "center",
-      color: "red",
       fontSize: 24
     }
   })
