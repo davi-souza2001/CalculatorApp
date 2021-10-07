@@ -19,14 +19,35 @@ export default StyleSheet.create({
     borderColor: "#888"
   },
   operationButton: {
+    fontSize: 40,
+    height: Dimensions.get('window').width / 4,
+    width: Dimensions.get('window').width / 4,
+    padding: 20,
     color: "#fff",
-    backgroundColor: "#fa8231"
+    backgroundColor: "#fa8231",
+    textAlign: "center",
+    borderWidth: 1,
+    borderColor: "#888"
   },
   buttonDouble: {
-    width: (Dimensions.get("window").width / 4) * 2
+    fontSize: 40,
+    height: Dimensions.get('window').width / 4,
+    width: (Dimensions.get("window").width / 4) * 2,
+    padding: 20,
+    backgroundColor: "#f0f0f0",
+    textAlign: "center",
+    borderWidth: 1,
+    borderColor: "#888"
   },
   buttonTriple: {
-    width: (Dimensions.get("window").width / 4) * 3
+    fontSize: 40,
+    height: Dimensions.get('window').width / 4,
+    width: (Dimensions.get("window").width / 4) * 3,
+    padding: 20,
+    backgroundColor: "#f0f0f0",
+    textAlign: "center",
+    borderWidth: 1,
+    borderColor: "#888"
   },
   display: {
     flex: 1,
