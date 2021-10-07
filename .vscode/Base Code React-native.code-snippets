@@ -1,0 +1,17 @@
+{
+	"Base Code React-native": {
+		"scope": "javascript",
+		"prefix": "rn",
+		"body": [
+			"import React from 'react';",
+			"import { Text } from 'react-native';",
+			"",
+			"export default function ButtonHi() {",
+			"      return (",
+			"",
+			"       )",
+			"}"
+		],
+		"description": "Log output to console"
+	}
+}
