@@ -1,16 +1,12 @@
 import React from 'react';
-import { Button, Text } from 'react-native';
-
-import style from "./style";
+import { Text, TouchableHighlight } from 'react-native';
 
 // import { Container } from './styles';
-export default function ButtonHi() {
-    function sayHi() {
-        console.warn("Hi world!");
-    }
-
+export default function ButtonHi(props) {
     return (
-        <Button title="Exec" onPress={sayHi}/>
+        <TouchableHighlight onPress={props.onClick}>
+            <Text style={props.style}>{props.label}</Text>
+        </TouchableHighlight>
     )
 }
 
